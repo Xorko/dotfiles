@@ -38,4 +38,3 @@ I'm using the Breeze cursor and the Papirus-Dark icon theme.
 ## To do
 
 - Configure Wlogout colors
-- Improve the music script
