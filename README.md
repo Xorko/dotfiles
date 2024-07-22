@@ -30,6 +30,7 @@ I mainly use configs provided from the [Catppuccin](https://github.com/catppucci
 - Zsh
 - Nvim
 - Pipewire
+- EasyEffects
 - Cava
 
 I'm using the Breeze cursor and the Papirus-Dark icon theme.
