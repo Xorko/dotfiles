@@ -38,3 +38,4 @@ I'm using the Breeze cursor and the Papirus-Dark icon theme.
 ## To do
 
 - Configure Wlogout colors
+- Remove all useless packages (mostly from my previous i3wm config)
