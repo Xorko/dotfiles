@@ -32,6 +32,8 @@ I mainly use configs provided from the [Catppuccin](https://github.com/catppucci
 - Pipewire
 - Cava
 
+I'm using the Breeze cursor and the Papirus-Dark icon theme.
+
 ## To do
 
 - Configure Wlogout colors
