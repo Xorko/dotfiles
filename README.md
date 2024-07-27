@@ -11,8 +11,7 @@ I mainly use configs provided from the [Catppuccin](https://github.com/catppucci
 
 ![](https://github.com/user-attachments/assets/53113310-4ce1-4dcc-9e6a-f6cda74e4897)
 ![](https://github.com/user-attachments/assets/c2689115-dc75-4c6c-9de4-8ea543fcd2f7)
-![](https://github.com/user-attachments/assets/b69a2a03-5e01-4087-919a-9a7808dcf0aa)
-
+![](https://github.com/user-attachments/assets/6ddfc7f7-48a9-444e-86fd-6dffebffb6cb)
 
 ## Softwares
 
