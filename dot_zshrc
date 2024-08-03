@@ -131,9 +131,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools
 #    tmux attach || tmux >/dev/null 2>&1
 #fi
 
-# OFF: host editor de wm palette
-export PF_INFO="ascii title os shell kernel uptime pkgs memory"
-pfetch
+fastfetch -c ~/.config/fastfetch/config.jsonc -l small
 
 # pnpm
 export PNPM_HOME="/home/xorko/.local/share/pnpm"

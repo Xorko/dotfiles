@@ -29,6 +29,7 @@ easyeffects
 efibootmgr
 ethtool
 fakeroot
+fastfetch
 ffmpeg
 file
 findutils
@@ -105,7 +106,6 @@ papirus-icon-theme
 patch
 pavucontrol
 pcmanfm-qt
-pfetch
 picom
 pipewire
 pipewire-alsa
