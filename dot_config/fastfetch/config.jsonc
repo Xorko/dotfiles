@@ -1,20 +1,61 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+      "type": "small",
+      "color": { "1": "blue", "2": "blue" } 
+    },
     "modules": [
-        "title",
-        "os",
-        "shell",
-        "kernel",
-        "uptime",
+        {
+          "type": "title",
+          "color": { "user": "magenta", "at": "magenta", "host": "magenta" }
+        },
+        {
+          "type":"os",
+          "key": "os",
+          "keyColor": "blue",
+          "format": "{3} {6}"
+        },
+        {
+          "type": "shell",
+          "key": "shell",
+          "keyColor": "blue",
+          "format": "{3}"
+        },
+        {
+          "type": "kernel",
+          "key": "kernel",
+          "keyColor": "blue",
+          "format": "{1} {2}"
+        },
+        {
+          "type": "uptime",
+          "key": "uptime",
+          "keyColor": "blue"
+        },
         {
             "type": "packages",
+            "key": "pkgs",
+            "keyColor": "blue",
             "format": "{all}"
         },
-        "de",
-        "wm",
-        "wmtheme",
+        {
+          "type": "de",
+          "key": "de",
+          "keyColor": "blue"
+        },
+        {
+          "type": "wm",
+          "key": "wm",
+          "keyColor": "blue"
+        },
+        {
+          "type": "wmtheme",
+          "keyColor": "blue"
+        },
         {
             "type": "memory",
+            "key": "memory",
+            "keyColor": "blue",
             "format": "{} / {}"
         }
     ]
