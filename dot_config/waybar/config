@@ -19,7 +19,7 @@
         "spacing": 10
     },
     "custom/music": {
-        "format": "  {}",
+        "format": "  {0}",
         "escape": true,
         "interval": 5,
         "tooltip": false,
@@ -72,7 +72,7 @@
         "format": "󰍃"
     },
     "custom/updates": {
-        "format": "{icon}{}",
+        "format": "{icon}{0}",
         "return-type": "json",
         "format-icons": {
             "pending-updates": "  ",
