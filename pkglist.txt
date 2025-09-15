@@ -1,3 +1,5 @@
+7zip
+android-studio
 arandr
 arc-gtk-theme
 archlinux-keyring
@@ -11,6 +13,7 @@ binutils
 blueman
 bluez
 bluez-utils
+brave-bin
 catppuccin-gtk-theme-mocha
 cava
 chezmoi
@@ -58,16 +61,15 @@ hyprpaper
 hyprshot
 i3-wm
 intel-ucode
-intellij-idea-ultimate-edition
+intellij-idea-community-edition
 iwd
 jdk-openjdk
-jdk11-openjdk
 kitty
 kvantum
 kvantum-qt5
 libpulse
 libtool
-libva-mesa-driver
+libvirt
 lightdm
 lightdm-gtk-greeter
 lightdm-settings
@@ -81,7 +83,6 @@ maim
 make
 man-db
 mesa
-mesa-vdpau
 nano
 neovim
 network-manager-applet
@@ -89,11 +90,11 @@ networkmanager
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
+ntfs-3g
 nvm
 nwg-look
 obs-studio
 okular
-p7zip
 pacman
 pacman-contrib
 pamixer
@@ -110,6 +111,7 @@ pkgconf
 polkit-gnome
 polybar
 postgresql
+qemu-full
 reflector
 rofi
 rxvt-unicode
@@ -118,6 +120,7 @@ sed
 smartmontools
 spotify
 steam
+strace
 sudo
 texinfo
 ttf-dejavu
@@ -133,6 +136,7 @@ udftools
 unzip
 ventoy-bin
 vim
+virt-manager
 visual-studio-code-bin
 vlc
 vulkan-radeon
@@ -144,7 +148,6 @@ wireplumber
 wlogout
 xarchiver
 xclip
-xcursor-breeze
 xcursor-breeze5
 xdg-desktop-portal-hyprland
 xdg-utils
