@@ -1,0 +1,17 @@
+------------------
+---- MONITORS ----
+------------------
+
+-- See https://wiki.hypr.land/Configuring/Basics/Monitors/
+hl.monitor({
+    output   = "DP-1",
+    mode     = "2560x1440@165",
+    position = "0x0",
+    scale    = "auto",
+})
+hl.monitor({
+    output   = "HDMI-A-1",
+    mode     = "1920x1080",
+    position = "2560x0",
+    scale    = "auto",
+})
