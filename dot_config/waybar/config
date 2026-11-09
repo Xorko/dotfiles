@@ -1,4 +1,3 @@
-
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
@@ -6,13 +5,13 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["custom/music"],
-    "modules-right": ["custom/updates", "pulseaudio", "backlight", "battery", "clock", "tray", "custom/lock", "custom/power"],
+    "modules-right": ["custom/updates", "pulseaudio", "battery", "clock", "tray", "custom/lock", "custom/power"],
     "hyprland/workspaces": {
         "format": "{icon}",
         "on-click": "activate",
         "sort-by-number": true,
-        "on-scroll-up": "hyprctl dispatch workspace e+1",
-        "on-scroll-down": "hyprctl dispatch workspace e-1"
+        "on-scroll-up": "hyprctl eval 'hl.dispatch(hl.dsp.focus({ workspace = \"+1\" }))'",
+        "on-scroll-down": "hyprctl 'hl.dispatch(hl.dsp.focus({ workspace = \"-1\" }))'"
     },
     "tray": {
         "icon-size": 21,
