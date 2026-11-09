@@ -54,3 +54,11 @@ hl.window_rule({
 
     no_blur = true,
 })
+
+-- Keep the cursor in the window while playing Steam games
+hl.window_rule({
+  name = "steam-game-pointer-lock",
+  match = { class = "^(steam_app_.*)$" },
+
+  confine_pointer = true
+})
