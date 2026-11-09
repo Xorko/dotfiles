@@ -10,8 +10,8 @@
         "format": "{icon}",
         "on-click": "activate",
         "sort-by-number": true,
-        "on-scroll-up": "hyprctl eval 'hl.dispatch(hl.dsp.focus({ workspace = \"+1\" }))'",
-        "on-scroll-down": "hyprctl 'hl.dispatch(hl.dsp.focus({ workspace = \"-1\" }))'"
+        "on-scroll-up": "hyprctl eval 'hl.dispatch(hl.dsp.focus({ workspace = \"m+1\" }))'",
+        "on-scroll-down": "hyprctl eval 'hl.dispatch(hl.dsp.focus({ workspace = \"m-1\" }))'"
     },
     "tray": {
         "icon-size": 21,
