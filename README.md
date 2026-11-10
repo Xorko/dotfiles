@@ -17,13 +17,13 @@ I mainly use configs provided from the [Catppuccin](https://github.com/catppucci
 
 - Hyprland
   - Hyprpaper
-  - Hyprshot
   - Hyperlock
   - Hyperidle
 - Waybar
 - Fuzzel
 - Dunst
 - Wlogout
+- Snappy switcher
 - Kvantum
 - Kitty
 - Zsh

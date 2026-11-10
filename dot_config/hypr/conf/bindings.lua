@@ -91,8 +91,8 @@ hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 
 -- Screenshots
-hl.bind("Print", hl.dsp.exec_cmd("hyprshot -m region --clipboard-only"))
-hl.bind("SHIFT + Print", hl.dsp.exec_cmd("hyprshot -m region"))
+hl.bind("Print", hl.dsp.exec_cmd('grim -g "$(slurp -w 0)" - | wl-copy'))
+hl.bind("SHIFT + Print", hl.dsp.exec_cmd('grim -g "$(slurp -w 0)" - | swappy -f -'))
 
 -- Dunst
 hl.bind("CTRL + Space", hl.dsp.exec_cmd("dunstctl close"), { locked = true })
